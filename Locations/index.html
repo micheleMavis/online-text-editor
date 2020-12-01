@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Language</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script async>(function(w, d) { w.CollectId = "5f16e39d70045f61168828b7"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script> -->
+</head>
+<body>
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div id="progressbar2"></div>
+    <div id="scrollPath2"></div>
+    
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <h1>Choose A Language to Continue</h1>
+    <div class="buttons">
+        <button class="btn" onclick="window.location.href='https://stackedit.io/app#';">MARKDOWN</button>
+    </div>
+
+    <div class="buttons">
+        <button class="btn" onclick="window.location.href='https://www.programiz.com/python-programming/online-compiler/';">PYTHON</button>
+    </div>
+
+    <div class="buttons">
+        <button class="btn" onclick="window.location.href='editor/editor.html';">HTML</button>
+    </div>
+
+    <div class="buttons">
+        <button class="btn" onclick="window.location.href='https://www.tutorialspoint.com/compile_java_online.php';">JAVA</button>
+    </div>
+
+    <div class="buttons">
+        <button class="btn" onclick="window.location.href='https://www.tutorialspoint.com/compile_cpp_online.php';">C++</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 1500);
+    </script>
+
+</body>
+</html>
