@@ -1,4 +1,4 @@
 # online-text-editor
-that can interpret html too. 
+that can interpret html,js,scss,python too. 
 
 have fun :)
